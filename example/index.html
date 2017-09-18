@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Turntable</title>
+	<link rel="stylesheet" href="../src/turntable.css">
+	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+	<script src="../src/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript">
+		console.log("作者:15级软工一班张明朝，联系QQ：1104272319 ");
+
+		function show1() {
+			var R = Math.random() * 255;
+			var G = Math.random() * 255;
+			var B = Math.random() * 255;
+
+			var a4 = Math.random();
+			var l = "rgba(";
+			var bre = ",";
+			var r = ")";
+			// if (flag == 1) {
+			//     G++;
+
+			document.bgColor = l + R + bre + G + bre + B + bre + a4 + r;
+			// document.bgColor = rgba(255, 32, 0, 0.57);
+		}
+		// document.bgColor = rgba(255, 32, 0, 0.57);
+	</script>
+
+</head>
+
+<body>
+	<html lang='en' class='no-js'>
+
+	<body>
+		<!-- 版权 -->
+		<div class="zmz" id="zmz">
+			<p><i>作者@张明朝</i></p>
+		</div>
+		<!-- second dialog1 -->
+		<div class="md-modal md-effect-4" id="modal-4">
+			<div class="md-content">
+				<h3>恭喜您抽中"再答一题"</h3>
+				<div>
+					<div style="text-align:center;">
+						<img src="images/0.jpg" alt="">
+					</div>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<!-- second dialog2 -->
+		<div class="md-modal md-effect-4" id="modal-5">
+			<div class="md-content">
+				<h3>恭喜您抽中"U盘的一半"</h3>
+				<div>
+					<div style="text-align:center;">
+						<img src="images/1.jpg" alt="">
+					</div>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<!-- second dialog3 -->
+		<div class="md-modal md-effect-4" id="modal-6">
+			<div class="md-content">
+				<h3>恭喜您抽中"阳光100一日游上"</h3>
+				<div>
+					<div style="text-align:center;">
+						<img src="images/2.jpg" alt="">
+					</div>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<!-- second dialog4 -->
+		<div class="md-modal md-effect-4" id="modal-7">
+			<div class="md-content">
+				<h3>恭喜您抽中"场外求助一次"</h3>
+				<div>
+					<div style="text-align:center;">
+						<img src="images/3.gif" alt="">
+					</div>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<!-- second dialog5 -->
+		<div class="md-modal md-effect-4" id="modal-8">
+			<div class="md-content">
+				<h3>恭喜您抽中"阳光一日游下"</h3>
+				<div>
+					<div style="text-align:center;">
+						<img src="images/4.jpg" alt="">
+					</div>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<!-- second dialog6 -->
+		<div class="md-modal md-effect-4" id="modal-9">
+			<div class="md-content">
+				<h3>恭喜您抽中"U盘的另一半"</h3>
+				<div>
+					<div style="text-align:center;">
+						<img src="images/555.jpg" alt="">
+					</div>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<!-- second dialog7 -->
+		<div class="md-modal md-effect-4" id="modal-10">
+			<div class="md-content">
+				<h3>恭喜您抽中"指定一名同学答题"</h3>
+				<div>
+					<div style="text-align:center;">
+						<img src="images/6.jpg" alt="">
+					</div>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<!-- second dialog8 -->
+		<div class="md-modal md-effect-4" id="modal-11">
+			<div class="md-content">
+				<h3>你好非洲酋长！你什么也没抽到</h3>
+				<div>
+					<div style="margin:0 auto;">
+						<img src="images/7.jpg" alt="">
+					</div>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- 按钮 -->
+		<button class="md-trigger" data-modal="modal-4" name="dd" id="second">Newspaper</button>
+		<button class="md-trigger" data-modal="modal-5" name="dd" id="second">Newspaper</button>
+		<button class="md-trigger" data-modal="modal-6" name="dd" id="second">Newspaper</button>
+		<button class="md-trigger" data-modal="modal-7" name="dd" id="second">Newspaper</button>
+		<button class="md-trigger" data-modal="modal-8" name="dd" id="second">Newspaper</button>
+		<button class="md-trigger" data-modal="modal-9" name="dd" id="second">Newspaper</button>
+		<button class="md-trigger" data-modal="modal-10" name="dd" id="second">Newspaper</button>
+		<button class="md-trigger" data-modal="modal-11" name="dd" id="second">Newspaper</button>
+
+
+		<div class="container2">
+			<div class="pointer" id="pointer">
+				<audio src="../src/f2.mp3" id="myaudio" controls="controls" loop="false" hidden="true"></audio>
+				<audio src="../src/congratulations.mp3" id="myaudio2" controls="controls" loop="false" hidden="true"></audio>
+				<audio src="../src/sad.mp3" id="myaudio3" controls="controls" loop="false" hidden="true"></audio>
+				<!-- <a href="javascript:void(0)" class="btn1" id="btnm">22222222</a> -->
+				<!-- <button class="btn1" id="btnm">22222222</button> -->
+			</div>
+			<div class="sun" id="sun"></div>
+			<div class="btn1" id="btnm"></div>
+			<div class="smoke" id="smoke"></div>
+			<div class="greenhat" id="greenhat"></div>
+
+			<div class="turntable" id="turntable">
+				<div class="turns">
+					<h3>再答一题</h3>
+					<img src="images/0.jpg" alt="">
+				</div>
+
+				<div class="turns">
+					<h3>U盘的一半</h3>
+					<img src="images/1.jpg" alt="">
+				</div>
+
+				<div class="turns">
+					<h3>阳光100一日游上</h3>
+					<img src="images/2.jpg" alt="">
+				</div>
+
+				<div class="turns">
+					<h3>场外求助一次</h3>
+					<img src="images/3.jpg" alt="">
+				</div>
+
+				<div class="turns">
+					<h3>阳光一日游下</h3>
+					<img src="images/4.jpg" alt="">
+				</div>
+
+				<div class="turns">
+					<h3>U盘的另一半</h3>
+					<img src="images/5.jpg" alt="">
+				</div>
+
+				<div class="turns">
+					<h3>指定一名同学答题</h3>
+					<img src="images/6.jpg" alt="">
+				</div>
+			</div>
+		</div>
+
+		<div class="imgg">
+			<img src="images/8.jpg">
+		</div>
+		<div class="imggg">
+			<img src="images/8.jpg">
+		</div>
+		<div class="iimg">
+			<img src="images/panda.gif">
+		</div>
+		<div class="iiimg">
+			<img src="images/panda.gif">
+		</div>
+
+		<a href="javascript:void(0)" class="btn2">模拟没中奖</a>
+		<a href="javascript:void(0)" class="btn3">模拟网络超时</a>
+
+		<script src="../lib/Turntable.min.js"></script>
+
+
+
+		<script>
+			// this is important for IEs
+			var polyfilter_scriptpath = '/js/';
+		</script>
+	</body>
+
+	</html>
+	<script src="js/second.js"></script>
+
+	<body>
+
+</html>
