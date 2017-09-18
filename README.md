@@ -8,4 +8,4 @@
 
 <font color=#FF0010 size=3>     图片是用gif器录制的，画质好差啊啊。。。。</font>
 
-![](http://images2017.cnblogs.com/blog/1169800/201709/1169800-20170918205314946-1141703244.gif)
+效果预览传送：[我的博客园](http://www.cnblogs.com/zhangmingzhao/p/7544933.html).
