@@ -10,4 +10,6 @@
 
 ###图片是用gif器录制的，画质好差啊啊
 
-效果预览传送：[我的博客园](http://www.cnblogs.com/zhangmingzhao/p/7544933.html).
+![](https://github.com/ZhangMingZhao1/Funny-Course-Turntable-draw/blob/master/GIF.gif)
+
+博客传送：[我的博客园](http://www.cnblogs.com/zhangmingzhao/p/7544933.html).
