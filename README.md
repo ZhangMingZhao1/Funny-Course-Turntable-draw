@@ -8,7 +8,7 @@
 
 **目前想改进的就是把转盘的时间加长点，也好让背景音乐长一些，更有气氛一些，改了那些轮盘转动的初始化代码没用，现在想知道怎么改可以增加轮盘转的时间(不影响现有功能的基础上)。求大佬看了我的代码会改的联系我**
 
-###图片是用gif器录制的，画质好差啊啊
+（图片是用gif器录制的，画质好差啊啊，还是download本地看效果吧）
 
 ![](https://github.com/ZhangMingZhao1/Funny-Course-Turntable-draw/blob/master/GIF.gif)
 
